@@ -2228,6 +2228,11 @@ span.required {
 #modx-leftbar-tabpanel .x-tab-panel-header .x-tab-strip-spacer {
     height:0px;
 }
+
+#modx-leftbar-tabpanel .x-tab-strip .x-tab-strip-text  {
+    color: #bbb;
+}
+
 #modx-resource-accordion .modx-panel-header,
 .modx-menu-accordion .modx-panel-header {
     cursor:pointer;
