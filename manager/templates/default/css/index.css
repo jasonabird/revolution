@@ -89,13 +89,13 @@ input::-moz-focus-inner {
     border-radius:0 0 4px 4px;
     padding-bottom: 0px;
     background-color: #fbfbfb;
-    border: 1px solid #999;
+    border: 1px solid #ccc;
     border-top: 0;
 }
 
 #modx-leftbar .x-tab-strip-active{
     background-color: #fbfbfb !important;
-    border-color: #999 !important;
+    border-color: #bbb !important;
     filter: none;
 }
 
@@ -2228,6 +2228,7 @@ span.required {
 
 #modx-leftbar-tabpanel .x-tab-panel-header .x-tab-strip-spacer {
     height:0px;
+    border-color:#ccc !important;
 }
 
 #modx-leftbar-tabpanel .x-tab-strip .x-tab-strip-text  {
