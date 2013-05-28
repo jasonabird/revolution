@@ -7,7 +7,7 @@ MODx.accordion.TreePanel = function(config) {
 
         tools:[{
             id: 'refresh',
-            faIcon: 'icon-plus',
+            faIcon: 'icon-plus-sign-alt',
             qtip: 'Create new Snippet',
             handler: function(){
                 this.getTree().refresh();
