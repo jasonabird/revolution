@@ -30,25 +30,28 @@ MODx.Layout = function(config){
     var showTree = false;
     if (MODx.perm.resource_tree) {
        tabs.push({
-            title: _('resources')
+            title: '<i class="icon-sitemap icon-large">&nbsp;</i>' //_('resources')
             ,xtype: 'modx-panel-resource-accordion'
+            ,tabTip: _('resources')
             ,id: 'modx-resource-tree'
         });
         showTree = true;
     }
     if (MODx.perm.element_tree) {
         tabs.push({
-            title: _('elements')
+            title: '<i class="icon-cogs icon-large">&nbsp;</i>' //_('elements')
     //        ,xtype: 'modx-tree-element'
-          ,xtype: 'modx-accordion-elements'
+            ,xtype: 'modx-accordion-elements'
+            ,tabTip: _('elements')
             ,id: 'modx-tree-element'
         });
         showTree = true;
     }
     if (MODx.perm.file_tree) {
         tabs.push({
-            title: _('files')
+            title: '<i class="icon-folder-open icon-large">&nbsp;</i>' //_('files')
             ,xtype: 'modx-tree-directory'
+            ,tabTip: _('files')
             ,id: 'modx-file-tree'
         });
         showTree = true;

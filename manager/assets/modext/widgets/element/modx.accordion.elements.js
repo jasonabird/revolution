@@ -14,32 +14,32 @@ MODx.accordion.Elements = function(config) {
 
         ,items: [{
             xtype: 'modx-accordion-treepanel',
-            title: 'Templates',
+            title: _('templates'),
             elementType: 'template',
             faIcon: 'icon-columns'
         },{
             xtype: 'modx-accordion-treepanel',
-            title: 'Template Varibles',
+            title: _('tvs'),
             elementType: 'tv',
             faIcon: 'icon-list-alt'
         },{
             xtype: 'modx-accordion-treepanel',
-            title: 'Chunks',
+            title: _('chunks'),
             elementType: 'chunk',
             faIcon: 'icon-th-large'
         },{
             xtype: 'modx-accordion-treepanel',
-            title: 'Snippets',
+            title: _('snippets'),
             elementType: 'snippet',
             faIcon: 'icon-code'
         },{
             xtype: 'modx-accordion-treepanel',
-            title: 'Plugins',
+            title: _('plugins'),
             elementType: 'plugin',
             faIcon: 'icon-cogs'
         },{
             xtype: 'modx-accordion-treepanel',
-            title: 'Categories',
+            title: _('categories'),
             elementType: 'category',
             faIcon: 'icon-folder-close'
         }]
