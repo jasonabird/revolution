@@ -30,7 +30,7 @@ MODx.Layout = function(config){
     var showTree = false;
     if (MODx.perm.resource_tree) {
        tabs.push({
-            title: '<i class="icon-sitemap icon-large">&nbsp;</i>' //_('resources')
+            title: _('resources')
             ,xtype: 'modx-panel-resource-accordion'
             ,tabTip: _('resources')
             ,id: 'modx-resource-tree'
@@ -39,7 +39,7 @@ MODx.Layout = function(config){
     }
     if (MODx.perm.element_tree) {
         tabs.push({
-            title: '<i class="icon-cogs icon-large">&nbsp;</i>' //_('elements')
+            title: _('elements')
     //        ,xtype: 'modx-tree-element'
             ,xtype: 'modx-accordion-elements'
             ,tabTip: _('elements')
@@ -49,7 +49,7 @@ MODx.Layout = function(config){
     }
     if (MODx.perm.file_tree) {
         tabs.push({
-            title: '<i class="icon-folder-open icon-large">&nbsp;</i>' //_('files')
+            title: _('files')
             ,xtype: 'modx-tree-directory'
             ,tabTip: _('files')
             ,id: 'modx-file-tree'
