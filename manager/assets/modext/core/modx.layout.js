@@ -39,7 +39,8 @@ MODx.Layout = function(config){
     if (MODx.perm.element_tree) {
         tabs.push({
             title: _('elements')
-            ,xtype: 'modx-tree-element'
+    //        ,xtype: 'modx-tree-element'
+          ,xtype: 'modx-accordion-elements'
             ,id: 'modx-tree-element'
         });
         showTree = true;

@@ -30,7 +30,7 @@ MODx = function(config) {
 };
 Ext.extend(MODx,Ext.Component,{
     config: {}
-    ,util:{},window:{},panel:{},tree:{},form:{},grid:{},combo:{},toolbar:{},page:{},msg:{}
+    ,util:{},window:{},panel:{},tree:{},form:{},grid:{},combo:{},toolbar:{},page:{},msg:{},accordion:{}
     ,expandHelp: true
     ,defaultState: []
 
