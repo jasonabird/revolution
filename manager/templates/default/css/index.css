@@ -2301,9 +2301,18 @@ span.required {
 }
 
 
-.modx-menu-accordion .modx-panel-header i {
+.modx-menu-accordion .modx-panel-header  i {
     font-size:1.2em;
     margin-right:4px;
+    position:relative;
+    top:1px;
+}
+.modx-menu-accordion .modx-panel-header .x-tool i {
+    font-size:1.2em;
+    top:0;
+}
+.modx-menu-accordion .modx-panel-header .x-tool:hover i {
+    text-shadow:0px 0px 2px #92AF4C;
 }
 
 
@@ -2330,6 +2339,3 @@ span.required {
 }
 
 
-.modx-menu-accordion .modx-panel-header .x-tool:hover i {
-    text-shadow:0px 0px 2px #92AF4C;
-}
